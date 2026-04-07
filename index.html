@@ -461,6 +461,7 @@ footer { background:var(--black); border-top:1px solid rgba(255,255,255,0.06); p
     │  </video>                                                │
     └─────────────────────────────────────────────────────────┘
     -->
+      <!--
     <div class="video-fallback" id="videoFallback">
       <!-- floating glow particles -->
       <div class="particle" style="width:120px;height:120px;left:15%;bottom:10%;animation-duration:9s;animation-delay:0s;"></div>
@@ -472,7 +473,11 @@ footer { background:var(--black); border-top:1px solid rgba(255,255,255,0.06); p
         <div class="fallback-text">Your BIN-GO Store Video Goes Here</div>
         <div class="fallback-sub">Upload an MP4 of your store in action</div>
       </div>
-    </div>
+    </div>  -->
+      <video id="heroVideo" autoplay muted loop playsinline
+    poster="your-store-thumbnail.jpg">
+    <source src="bingo-store-video.mp4" type="video/mp4">
+  </video>
   </div>
 
   <div class="hero-gradient"></div>
